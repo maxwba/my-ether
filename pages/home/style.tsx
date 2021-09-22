@@ -29,12 +29,16 @@ export const CardComponent = styled(Card)`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 50vh;
+  height: 90vh;
 `;
 
 export const Logo = styled.img`
   max-height: 10vh;
   width: auto;
 `;
+
 export const Input = styled(TextField)`
+`;
+
+export const Ballance = styled.div`
 `;
