@@ -29,7 +29,7 @@ export const CardComponent = styled(Card)`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  height: calc(80vh - 50px);
 `;
 
 export const Logo = styled.img`

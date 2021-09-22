@@ -51,6 +51,7 @@ export default function Home() {
     }
     return () => {
       setBalance(null);
+      setDollarBalance(null);
       setAddress(null);
     }
   }, [address])
