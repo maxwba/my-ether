@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
-import { Title, Main, Logo, Input, CardComponent, Text, Ballance } from './style'
+import { Title, Main, Logo, Input, CardComponent, Text, Ballance } from '../../styles/home/style'
 const axios = require('axios').default;
 
 import Web3 from 'web3'
